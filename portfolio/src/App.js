@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch, Redirect } from 'react-router-dom';
-import Home from './components/pages/Home';
-import Project from './components/pages/Project';
-import Friend from './components/pages/Friends';
-import Facehub from './components/pages/Facehub';
-import NotFound from './components/pages/NotFound';
+import Home from './components/Pages/Home';
+import Project from './components/Pages/Project';
+import Friend from './components/Pages/Friends';
+import Facehub from './components/Pages/Facehub';
+import NotFound from './components/Pages/NotFound';
+
 
 function App() {
   return (
